@@ -1,2 +1,2 @@
-# docs
-Documentation for weird things
+# Documentation
+Visit the [wiki](https://github.com/sbrothers7/docs/wiki)
