@@ -1,0 +1,42 @@
+site_name: sbrothers7 Docs
+theme: 
+  name: bootstrap4
+
+nav:
+  - Welcome: index.md
+
+  - macOS:
+    - Emulation Layers: macOS/Emulation-Layers.md
+    - UTM Guides: macOS/UTM-Guides.md
+    - Virtualization & Emulation: macOS/Virtualization-and-Emulation.md
+    - Ricing: macOS/Ricing.md
+
+    - Windows Only:
+        - ADOFAI Modding: macOS/"Windows Only"/ADOFAI-Modding.md
+        - DJMAX: macOS/"Windows Only"/DJMAX.md
+
+    - Natively Installing Other OSes:
+        - Installing Linux: macOS/Natively Installing Other OSes/Installing-Linux.md
+        - Installing Windows: macOS/Natively Installing Other OSes/Installing-Windows.md
+
+    - Other:
+        - Sikarugir: macOS/Other/Sikarugir.md
+
+  - Windows: 
+    - Versions: Windows/Windows.md
+
+extra_css:
+  - css/extra.css
+  - css/darkmode.css
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+
+extra_javascript:
+  - js/submenus.js
+  - js/fixnavbar.js
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tilde
