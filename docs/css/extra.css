@@ -53,6 +53,23 @@ table th {
 	border: 1px solid rgb(50, 50, 50);
 }
 
+.dropdown-menu {
+	min-width: 12rem;
+	max-width: 22rem;
+}
+
+.dropdown-menu .dropdown-item {
+	white-space: normal !important;
+	overflow-wrap: anywhere;
+	line-height: 1.2;
+	border-bottom: 0.5px solid #303030;
+	padding: 0.5rem 1rem;
+}
+
+.dropdown-menu>li:last-child,
+.dropdown-menu>li:last-child>a {
+	border: 0 !important;
+}
 
 .dropdown-submenu {
 	position: relative;

@@ -2,7 +2,7 @@
 
 ## Installation
 
-!!! important
+!!! note
     For Apple Silicon, before install:
 
     1. Remove game directory completely before installation
@@ -14,9 +14,9 @@
 4. Open terminal at UMM folder
 5. Run `mono Console.exe`
 6. Go through installation process (put game directory as `"~/Library/Application Support/Steam/steamapps/common/A Dance of Fire and Ice"`)
-7. Add mods under Mods/ in game directory
+7. Add mods under `Mods/` in game directory
 
-!!! important
+!!! note
     For Apple Silicon, after install, before running the game:
 
 1. *Get Info* `(CMD + I)` of `ADanceOfFireAndIce.app` and check *Open Using Rosetta 2*
