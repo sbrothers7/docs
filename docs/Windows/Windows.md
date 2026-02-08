@@ -29,6 +29,13 @@ There are many to choose from, but I found [capsicain](https://github.com/cajhin
 There is also [kanata](https://github.com/jtroo/kanata) which is available on all platforms.
 
 ## Windows 10
+!!! Note
+    Support for Windows 10 officially ended in October 14, 2025, but you can still use it normally (kind of).
+
+### Windows LTSC
+
+Microsoft still maintains Windows 10 LTSC builds, and the IoT version will receive security updates until 2031.
+You can find the ISO at the [MAS website](https://massgrave.dev/windows_ltsc_links).
 
 ## Using Windows 7
 

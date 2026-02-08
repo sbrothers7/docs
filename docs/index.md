@@ -1,4 +1,4 @@
-# Welcome
+# Home
 
 ## What is this for?
 

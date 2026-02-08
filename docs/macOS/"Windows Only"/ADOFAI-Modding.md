@@ -14,7 +14,7 @@
 4. Open terminal at UMM folder
 5. Run `mono Console.exe`
 6. Go through installation process (put game directory as `"~/Library/Application Support/Steam/steamapps/common/A Dance of Fire and Ice"`)
-7. Add mods under /Mods in game directory
+7. Add mods under Mods/ in game directory
 
 !!! important
     For Apple Silicon, after install, before running the game:

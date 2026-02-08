@@ -19,28 +19,39 @@ Make sure to debloat using Chris Titus' [winutil](https://github.com/ChrisTitusT
     > - Memory: 4096 MiB
     > - CPU Cores: 2
     > - Check Legacy Hardware
-   - Click *Continue*
+    - Click *Continue*
 2. Download ISO:
+
     > 32-bit: [Download](https://archive.org/details/WinXPProSP3x86),
     > Product Key: MRX3F-47B9T-2487J-KWKMF-RPWBY
     >
     > 64-bit: [Download](https://archive.org/details/en_win_xp_pro_x64_with_sp2),
     > Product Key: B2RBK-7KPT9-4JP6X-QQFWM-PJD6G
+
     - Check *CD/DVD Image*
     - Browse and select downloaded ISO file
+
 3. After setting desired storage size, click *Continue* until setup finishes
 4. Right click on the virtual machine on the sidebar then *Edit*
 5. Under *System*,
+
     > - CPU: Intel(R) Core(TM)2 Duo CPU T7700 @2.40GHz (core2duo-v1)
+
 6. Under *Arguments* under *QEMU*,
+
     > - Click *New*
     > - Type `-boot menu=on`
     > - Press enter
+
 7. Under *Network*,
+
     > - Network Mode: Emulated VLAN
     > - Emulated Network Card: rtl8139
+
 8. Under *Sound*,
+
     > - Emulated Audio Card: Intel 82801AA AC97 (Audio AC97)
+
 9. Press *Save*
 10. Run the VM
 11. Go through the installation process

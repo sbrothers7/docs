@@ -1,11 +1,15 @@
-# Features
+# Sikarugir
+
+## Features
+
 [Sikarugir](https://github.com/Sikarugir-App/Sikarugir)
 A GUI tool for creating wine bottles and wrappers. Performance is better than virtualization w/ UTM and could theoretically run some Steam games.
 
 * Suports DirectX12
 * Winetricks
 
-# Installing Steam With Sikarugir
+## Installing Steam With Sikarugir
+
 1. Install sikarugir
 `brew install --cask --no-quarantine Sikarugir-App/sikarugir/sikarugir`
 2. Open `Sikarugir Creator`
@@ -21,7 +25,7 @@ A GUI tool for creating wine bottles and wrappers. Performance is better than vi
 12. Click *Choose Setup Executable*
 13. Select the Windows Steam installer
 14. Go through the installation but **uncheck *Run Steam* after install**
-15. Choose `"C:/Program Files (x86)/Steam/Steam.exe"
+15. Choose `"C:/Program Files (x86)/Steam/Steam.exe"`
 16. Select translation layer (D3DMetal or DXMT recommended)
 17. Launch the wrapper application again
 
