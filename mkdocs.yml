@@ -11,7 +11,7 @@ nav:
     - Virtualization & Emulation: macOS/Virtualization-and-Emulation.md
     - Ricing: macOS/Ricing.md
 
-    - Windows Only:
+    - '"Windows Only"':
         - ADOFAI Modding: macOS/"Windows Only"/ADOFAI-Modding.md
         - DJMAX: macOS/"Windows Only"/DJMAX.md
 
