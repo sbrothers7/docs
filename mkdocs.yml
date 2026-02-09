@@ -1,6 +1,8 @@
 site_name: sbrothers7 Docs
 theme: 
   name: bootstrap4
+repo_url: https://github.com/sbrothers7/Documentation/
+edit_uri: https://github.com/sbrothers7/Documentation/blob/main/docs/
 
 nav:
   - Welcome: index.md
@@ -23,7 +25,7 @@ nav:
         - Sikarugir: macOS/Other/Sikarugir.md
 
   - Windows: 
-    - Versions: Windows/Windows.md
+    - Versions: Windows/Windows-Versions.md
 
 extra_css:
   - css/extra.css
@@ -31,8 +33,7 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
 
 extra_javascript:
-  - js/submenus.js
-  - js/fixnavbar.js
+  - js/navbarFix.js
 
 markdown_extensions:
   - admonition
@@ -40,3 +41,10 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight
   - pymdownx.tilde
+
+plugins:
+  - git-committers:
+      repository: sbrothers7/Documentation
+      branch: main
+      docs_path: docs/
+      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]

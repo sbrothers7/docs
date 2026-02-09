@@ -29,6 +29,7 @@ There are many to choose from, but I found [capsicain](https://github.com/cajhin
 There is also [kanata](https://github.com/jtroo/kanata) which is available on all platforms.
 
 ## Windows 10
+
 !!! Note
     Support for Windows 10 officially ended in October 14, 2025, but you can still use it normally (kind of).
 
