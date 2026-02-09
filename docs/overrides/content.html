@@ -29,11 +29,12 @@
     <time role="presentation" datetime="2018-10-25T00:00:00.000Z" data-article-date-source="ms.date">{% if last_commit
       %}{{ last_commit.commit.committer.date.strftime('%Y-%m-%d') }}{% endif %}</time>
   </li>
-  <li class="contributors-holder" style="opacity:0">
-    <span class="contributors-text">Contributors</span>
+  <li class="contributors-holder">
+    <span class="contributors-text" style="opacity: 0">Contributors</span>
     <ul class="contributors" data-bi-name="contributors">
       {%- for user in committers -%}
-      <li><a href="{{ user.repos }}" title="{{ user.name }}" data-bi-name="contributorprofile"></a></li>
+      <li style="opacity: 0"><a href="{{ user.repos }}" title="{{ user.name }}" data-bi-name="contributorprofile"></a>
+      </li>
       {%- endfor -%}
     </ul>
   </li>

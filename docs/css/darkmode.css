@@ -17,8 +17,22 @@ a:hover {
     color: #a8c7ff;
 }
 
-/* --- Navbar / header --- */
-.navbar,
+.modal-body,
+.modal-header,
+.modal-footer {
+    background: #1b1f24 !important;
+}
+
+.modal-header,
+.modal-footer {
+    border-color: rgba(255, 255, 255, 0.10);
+}
+
+.close,
+.close span {
+    color: white !important;
+}
+
 .navbar-light,
 .bg-light {
     background: #1b1f24 !important;

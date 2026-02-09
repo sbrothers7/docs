@@ -1,6 +1,8 @@
 site_name: sbrothers7 Docs
 theme: 
   name: bootstrap4
+  custom_dir: docs/overrides
+
 repo_url: https://github.com/sbrothers7/Documentation/
 edit_uri: https://github.com/sbrothers7/Documentation/blob/main/docs/
 
@@ -34,6 +36,7 @@ extra_css:
 
 extra_javascript:
   - js/navbarFix.js
+  - js/modalFix.js
 
 markdown_extensions:
   - admonition
@@ -43,6 +46,7 @@ markdown_extensions:
   - pymdownx.tilde
 
 plugins:
+  - search
   - git-committers:
       repository: sbrothers7/Documentation
       branch: main
