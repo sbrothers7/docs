@@ -3,12 +3,12 @@ theme:
   name: bootstrap4
   custom_dir: docs/overrides
 
+site_description: sbrothers7 Documentation
+
 repo_url: https://github.com/sbrothers7/Documentation/
 edit_uri: https://github.com/sbrothers7/Documentation/blob/main/docs/
 
 nav:
-  - Welcome: index.md
-
   - macOS:
     - Emulation Layers: macOS/Emulation-Layers.md
     - UTM Guides: macOS/UTM-Guides.md
@@ -28,6 +28,13 @@ nav:
 
   - Windows: 
     - Versions: Windows/Windows-Versions.md
+    - Using XP: Windows/Using-XP.md
+
+  - Linux:
+    - Arch Linux: Linux/Arch-Linux.md
+
+  - Other:
+    - Hybrid MBR: Other/Hybrid-MBR.md
 
 extra_css:
   - css/extra.css

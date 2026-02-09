@@ -28,6 +28,8 @@ a:hover {
     border-color: rgba(255, 255, 255, 0.10);
 }
 
+/* Add blur */
+
 .close,
 .close span {
     color: white !important;
