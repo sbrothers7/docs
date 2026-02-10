@@ -8,6 +8,13 @@
 	list-style: none !important;
 }
 
+#repolink {
+	position: fixed;
+	bottom: 1rem;
+	right: 1rem;
+	margin-right: 1rem;
+}
+
 .admonition {
 	border: 1px solid rgba(0, 0, 0, .125);
 	border-left-width: .25rem;
