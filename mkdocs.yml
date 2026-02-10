@@ -32,6 +32,7 @@ nav:
 
   - Linux:
     - Arch Linux: Linux/Arch-Linux.md
+    - GRUB: Linux/GRUB.md
 
   - Other:
     - Hybrid MBR: Other/Hybrid-MBR.md

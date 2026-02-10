@@ -75,7 +75,6 @@ document.addEventListener("DOMContentLoaded", () => {
         const h = (href || "").toLowerCase();
 
         for (const s of SECTIONS) {
-            // Works for "/macos/..." and "macos/..." and "/macos"
             if (h.includes(`/${s}/`) || h.startsWith(`${s}/`) || h.startsWith(`/${s}`)) {
                 return s;
             }
@@ -111,4 +110,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const { collapse, navList } = ensureCollapseAndNavList();
     wireTogglerToCollapseId(collapse);
     routeStraySubmenus(navList);
+
+    /*const tldropdowns = document.querySelectorAll(".dropdown > div.dropdown-menu"); // top-level dropdowns
+    tldropdowns.forEach(dropdown => {
+        const parent = dropdown.parentNode;
+
+    });*/
 });
