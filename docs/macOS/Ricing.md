@@ -15,7 +15,11 @@ To use yabai as a proper WM, SIP needs to be partially disabled.
 2. Open Terminal (CMD + SHIFT + T)
 
     Enter:
-    <pre lang="markdown">csrutil enable --without fs --without debug --without nvram</pre>
+
+    ```zsh
+    csrutil enable --without fs --without debug --without nvram
+    ```
+
 3. Restart
 
 Visit the [yabai wiki](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection) for more info.

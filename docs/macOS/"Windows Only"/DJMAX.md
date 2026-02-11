@@ -7,7 +7,7 @@
 
 1. Install Crossover
 `brew install --cask crossover`
-2. [Install Steam on Sikarugir](https://github.com/sbrothers7/docs/wiki/MacOS-Sikarugir#installing-steam-with-sikarugir)
+2. [Install Steam on Sikarugir](sbrothers7.github.io/Documentation/macOS/Other/Sikarugir)
 3. Download DJMAX
 4. Open Crossover
 5. Click *Install*

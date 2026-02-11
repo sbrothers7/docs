@@ -2,7 +2,8 @@
 
 ## Dual-booting Windows w/ Bootcamp
 
-On Intel macs, you can use `Bootcamp Assistant` to easily dual boot windows. Depending on the macOS version, bootcamp will offer different Windows versions. Bootcamp automatically installs needed drivers for Windows. 
+On Intel macs, you can use `Bootcamp Assistant` to easily dual boot windows. Depending on the macOS version, bootcamp will offer different Windows versions. Bootcamp automatically installs needed drivers for Windows.
+
 !!! Note
     You cannot rollback macOS to a version that existed before your machine, so you cannot install a version of Windows supported by Bootcamp in a previous version of macOS that came installed with your machine.
 
