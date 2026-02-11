@@ -2,7 +2,7 @@
 
 ## What is this for?
 
-I do strange things with macs (because my school only allows macs)  
-So I have come to accumulate random knowledge from experimenting.
+I do werid stuff things with tech (especially macs because of school)  
+And from years of experimenting, I've accumulated a bunch of random knowledge—some of which, I think are valuable to share.
 
-And now, you have access to ~~most~~ all of the information!
+Thus, you have access to ~~most~~ all of the information!
