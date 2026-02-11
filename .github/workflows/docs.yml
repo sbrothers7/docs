@@ -2,7 +2,7 @@ name: Documentation
 on:
   push:
     branches:
-      - gh-pages
+      - main
 permissions:
   contents: read
   pages: write
@@ -10,7 +10,7 @@ permissions:
 jobs:
   deploy:
     environment:
-      name: github-pages
+      name: gh-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
