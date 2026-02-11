@@ -4,13 +4,11 @@ theme:
   logo: images/logo.png
   favicon: images/favicon.png
   palette: 
-    # Palette toggle for light mode
     - scheme: default
       toggle:
         icon: lucide/sun
         name: Switch to dark mode
 
-    # Palette toggle for dark mode
     - scheme: slate
       toggle:
         icon: lucide/moon
