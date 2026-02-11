@@ -17,6 +17,7 @@ theme:
         name: Switch to light mode
 
 site_description: sbrothers7 Documentation
+site_dir: site
 
 repo_url: https://github.com/sbrothers7/Documentation/
 edit_uri: https://github.com/sbrothers7/Documentation/blob/main/docs/
