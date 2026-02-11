@@ -1,7 +1,20 @@
 site_name: sbrothers7 Docs
 theme: 
-  name: bootstrap4
-  custom_dir: docs/overrides
+  name: modern 
+  logo: images/logo.png
+  favicon: images/favicon.png
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: lucide/sun
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: lucide/moon
+        name: Switch to light mode
 
 site_description: sbrothers7 Documentation
 
@@ -37,14 +50,9 @@ nav:
   - Other:
     - Hybrid MBR: Other/Hybrid-MBR.md
 
-extra_css:
-  - css/extra.css
-  - css/darkmode.css
-  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+# extra_css:
 
-extra_javascript:
-  - js/navbarFix.js
-  - js/modalFix.js
+# extra_javascript:
 
 markdown_extensions:
   - admonition
@@ -52,11 +60,3 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.highlight
   - pymdownx.tilde
-
-plugins:
-  - search
-  - git-committers:
-      repository: sbrothers7/Documentation
-      branch: main
-      docs_path: docs/
-      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
