@@ -2,6 +2,9 @@ site_name: sbrothers7 Docs
 theme: 
   name: modern 
   logo: images/logo.png
+  icon:
+    edit: material/pencil
+    view: material/eye
   favicon: images/favicon.png
   palette: 
     - scheme: default
@@ -15,14 +18,28 @@ theme:
         name: Switch to light mode
   features:
     - content.code.copy
+    - navigation.footer
+    - content.action.view
+    - navigation.instant
 
+extra:
+  generator: false
+
+copyright: "Copyright &copy; 2026 sbrothers7"
 site_description: sbrothers7 Documentation
+docs_dir: docs
 site_dir: site
 
-repo_url: https://github.com/sbrothers7/Documentation/
-edit_uri: https://github.com/sbrothers7/Documentation/blob/main/docs/
+
+extra_css:
+  - css/extra.css
 
 nav:
+  - Home: index.md
+  - Linux:
+    - Arch Linux: Linux/Arch-Linux.md
+    - GRUB: Linux/GRUB.md
+
   - macOS:
     - Emulation Layers: macOS/Emulation-Layers.md
     - UTM Guides: macOS/UTM-Guides.md
@@ -44,16 +61,10 @@ nav:
     - Versions: Windows/Windows-Versions.md
     - Using XP: Windows/Using-XP.md
 
-  - Linux:
-    - Arch Linux: Linux/Arch-Linux.md
-    - GRUB: Linux/GRUB.md
-
   - Other:
+    - Experiments: 
+      - Installing Windows XP on a Modern System: Other/Experiments/Installing-XP.md
     - Hybrid MBR: Other/Hybrid-MBR.md
-
-# extra_css:
-
-# extra_javascript:
 
 markdown_extensions:
   - admonition
