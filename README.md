@@ -1,1 +1,1 @@
-# https://sbrothers7.github.io/Documentation
+# https://sbrothers7.github.io/docs
