@@ -19,10 +19,19 @@
 !!! note
     For Apple Silicon, after install, before running the game:
 
-1. *Get Info* `(CMD + I)` of `ADanceOfFireAndIce.app` and check *Open Using Rosetta 2*
-2. Open Terminal and `cd` to `[Game Directory]/ADanceOfFireAndIce.app/Contents/MacOS/`
-3. Check for architecture using <pre lang="markdown">lipo -info "ADanceOfFireAndIce"</pre>
-4. If arm64 is detected, run <pre lang="markdown">lipo -remove arm64 "ADanceOfFireAndIce" -output "ADanceOfFireAndIce"</pre>
+    1. *Get Info* `(CMD + I)` of `ADanceOfFireAndIce.app` and check *Open Using Rosetta 2*
+    2. Open Terminal and `cd` to `[Game Directory]/ADanceOfFireAndIce.app/Contents/MacOS/`
+    3. Check for architecture using
+
+        ```sh
+        lipo -info "ADanceOfFireAndIce"
+        ```
+
+    4. If arm64 is detected, run
+
+        ```sh
+        lipo -remove arm64 "ADanceOfFireAndIce" -output "ADanceOfFireAndIce"
+        ```
 
 ## Compatibility
 
@@ -39,11 +48,11 @@ Last Checked: Feb 8, 2026
 | High | KeyViewer 4 | "" |
 | High | KeyViewer 3 | "" |
 | High | Together | |
-| High | TUFHelper | Make sure to set download path manually |
 | High | EnhancedEffectRemover | |
 | High | JipperResourcePack | KeyViewer rain is broken |
 | Medium | PACL2 | Timeline view graphics break |
 | Medium | BetterCalibration | Recommended calibration settings menu hides mouse cursor |
+| Low | TUFHelper | Input and overlay bug. Restart needed. |
 
 !!! note
     Mods that do not work were excluded.

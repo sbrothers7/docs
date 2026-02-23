@@ -15,4 +15,4 @@ Paid software, but is compatible with more games.
 
 ## Sikarugir
 
-[More info on Sikarugir](https://sbrothers7.github.io/Documentation/macOS/Other/Sikarugir)
+[More info on Sikarugir](../macOS/Other/Sikarugir)

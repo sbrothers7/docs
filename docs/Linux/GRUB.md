@@ -15,7 +15,7 @@ Before reinstalling GRUB, confirm that the error is not repairable with any of [
 
 I have found that the most optimal way of repairing GRUB is to use live installation media and `chroot`ing.
 
-1. Prepare a [bootable USB](sbrothers7.github.io/Documentation/Other/Bootable-Media)
+1. Prepare a [bootable USB](../Other/Bootable-Media)
 2. Check partition layout using `lsblk`
 3. Mount partitions
 

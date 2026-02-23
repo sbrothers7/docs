@@ -6,7 +6,7 @@
 
 Open source GUI app for [QEMU](https://www.qemu.org/)
 
-[Installation procedures](https://sbrothers7.github.io/Documentation/macOS/UTM-Guides)
+[Installation procedures](../macOS/UTM-Guides)
 
 !!! Note
     *GPU passthrough is only partially supported!*
