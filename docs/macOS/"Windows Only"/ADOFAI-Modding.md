@@ -2,19 +2,18 @@
 
 ## Installation
 
-!!! note
-    For Apple Silicon, before install:
-
-    1. Remove game directory completely before installation
-    2. Do a fresh install of the game
-
 1. Install [mono](https://www.mono-project.com/) (cross-platform open source .NET framework) via homebrew.
 2. Download [UMM](https://www.nexusmods.com/site/mods/21)
-3. Extract downloaded archive
-4. Open terminal at UMM folder
-5. Run `mono Console.exe`
-6. Go through installation process (put game directory as `"~/Library/Application Support/Steam/steamapps/common/A Dance of Fire and Ice"`)
-7. Add mods under `Mods/` in game directory
+3. Extract downloaded archive.
+4. Open terminal at UMM folder.
+5. Run
+
+    ``` zsh
+    mono Console.exe
+    ```
+
+6. Go through installation process (put game directory as `"~/Library/Application Support/Steam/steamapps/common/A Dance of Fire and Ice"`).
+7. Add mods under `Mods/` in game directory (If downloaded mods are archives, unarchive them and put them inside `Mods/`).
 
 !!! note
     For Apple Silicon, after install, before running the game:
@@ -37,7 +36,7 @@
 
 Some mods do not work properly when installed. (Texture breaks, input bugs, etc.)
 
-Last Checked: Feb 8, 2026
+Last Checked: Feb 24, 2026
 
 | Compatibility | Mod | Notes |
 | :-----------: | :---: | :------------ |

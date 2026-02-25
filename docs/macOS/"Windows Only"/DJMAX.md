@@ -5,10 +5,13 @@
 !!! Note
     Crossover requires a paid subscription
 
+!!! Tip
+    It is completely viable to download DJMAX from Steam run with Crossover without having to transfer files, but I have noticed consitently high CPU usage while downloading with Crossover and had to use a charger during install.
+
 1. Install Crossover
 `brew install --cask crossover`
 2. [Install Steam on Sikarugir](../macOS/Other/Sikarugir)
-3. Download DJMAX
+3. Download DJMAX on Steam run with Sikarugir
 4. Open Crossover
 5. Click *Install*
 6. Select Steam, then Click *Install*

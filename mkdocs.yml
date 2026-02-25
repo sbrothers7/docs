@@ -65,6 +65,7 @@ nav:
     - Experiments: 
       - Installing Windows XP on a Modern System: Other/Experiments/Installing-XP.md
     - Hybrid MBR: Other/Hybrid-MBR.md
+    - DM Note: Other/DM-Note.md
 
 markdown_extensions:
   - admonition

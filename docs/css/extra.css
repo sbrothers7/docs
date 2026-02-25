@@ -3,6 +3,6 @@
 
 }
 
-.md-footer-meta {
+body[data-md-color-scheme="slate"] .md-footer-meta {
     background-color: rgb(25, 25, 25) !important;
 }

@@ -2,7 +2,7 @@
 
 GRUB is a popular bootloader used by linux users.
 
-## Repairing GRUB
+## Repairing/Reinstalling GRUB
 
 When dual-booting Windows, GRUB can break if you:
 
@@ -13,7 +13,7 @@ Plus, it's just very easy to break.
 
 Before reinstalling GRUB, confirm that the error is not repairable with any of [these fixes](https://wiki.archlinux.org/title/GRUB#Troubleshooting).
 
-I have found that the most optimal way of repairing GRUB is to use live installation media and `chroot`ing.
+I have found that the most optimal way of reinstalling GRUB is to use live installation media and `chroot`ing.
 
 1. Prepare a [bootable USB](../Other/Bootable-Media)
 2. Check partition layout using `lsblk`
