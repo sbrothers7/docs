@@ -6,9 +6,9 @@
 
 Currently, DM Note is available for [Windows and MacOS](https://github.com/DmNote-App/DmNote/releases), and a [fork](https://github.com/northernorca/DmNote) is available for Linux.
 
-## KPS and Totals for ADOFAI
+## Making an ADOFAI Key Viewer
 
-Using the KPS plugin (either kps.js or kps-builtin.js) from the repository cannot yield common key viewer layouts used for ADOFAI and border customization is limited. You can either:
+The KPS and Totals keys can be made with by Right Clicking an empty space, then selecting *Add Stats*.
+Rain settings are under *Etc>Note Settings* (click the small arrow next to the settings icon)
 
-- Add customizability to the plugin (you can add settings menu)
-- Use my plugin :)
+Alternatively, you can download [one my presets](https://drive.google.com/drive/folders/1V23Wgd1RdNyCW5GGB_jS-cmJWbPuEDd7?usp=drive_link).
