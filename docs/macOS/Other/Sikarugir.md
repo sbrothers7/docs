@@ -2,8 +2,7 @@
 
 ## Features
 
-[Sikarugir](https://github.com/Sikarugir-App/Sikarugir)
-A GUI tool for creating wine bottles and wrappers. Performance is better than virtualization w/ UTM and could theoretically run some Steam games.
+[Sikarugir](https://github.com/Sikarugir-App/Sikarugir) is a GUI tool for creating wine bottles and wrappers. Performance is better than virtualization w/ UTM and could theoretically run some Steam games.
 
 * Suports DirectX12
 * Winetricks

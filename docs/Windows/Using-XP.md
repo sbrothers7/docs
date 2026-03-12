@@ -1,6 +1,6 @@
 # Using Windows XP
 
-Astonishingly, it is still possible to use Windows XP when using appropriate drivers and software on the newest machines (but I still recommend using it inside a VM). Below are steps to get you started on installing and using Windows XP—If, for some reason, you plan on (close to) daily-driving Windows XP.
+Astonishingly, it is still possible to use Windows XP when using appropriate drivers and software on the newest machines (but I still recommend using it inside a VM). Below are steps to get you started on installing and using Windows XP—If, for some reason, you plan on (close to) daily-driving it.
 
 ## Installation
 
