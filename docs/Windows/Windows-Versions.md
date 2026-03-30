@@ -7,8 +7,8 @@
 
     [disintegrating8](https://github.com/disintegrating8), 2025
 
-    "I 'upgraded' to Windows 10 to play Asseto Corsa."<br><br>
-    [disintegrating8](https://github.com/disintegrating8), 2026
+    !!! Note
+        disintegrating8 is now using Windows 11 due to gaming purposes.
 
 ## Windows 11
 
@@ -39,3 +39,7 @@ Microsoft still maintains Windows 10 LTSC builds, and the IoT version will recei
 You can find the ISO at the [MAS website](https://massgrave.dev/windows_ltsc_links).
 
 ## Using Windows 7
+
+## Windows XP
+
+Windows XP is arguably one of the best Windows versions to have been released, perhaps even greater in influence than any Windows version. Unlike Windows 11, it is lightweight, user-friendly (kind of), and free of bloat.

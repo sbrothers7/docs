@@ -38,7 +38,7 @@ Visit the [yabai wiki](https://github.com/koekeishiya/yabai/wiki/Disabling-Syste
 
 ### Scripting Additions
 
-For more features, you will need to configure scripting additions.
+For more useful features, you will need to configure scripting additions.
 
 1. Run
 

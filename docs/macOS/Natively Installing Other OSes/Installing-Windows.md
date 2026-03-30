@@ -8,5 +8,3 @@ Consult the [apple documentation for bootcamp](https://support.apple.com/kb/inde
 
 !!! Note
     You cannot rollback macOS to a version that existed before your machine, so you cannot install a version of Windows supported by Bootcamp in a previous version of macOS that came installed with your machine.
-
-    For example, running Windows 7, or XP will not be possible with an 2019 Macbook Pro since the earliest version rollback would be macOS Catalina which only supports Windows 10. You would have to figure out a way to reverse-engineer AND backport drivers for Windows 7 and XP.
