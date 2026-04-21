@@ -147,4 +147,4 @@ Any of the following would unblock native arm64 BepInEx on macOS:
 
 ## Workaround
 
-[Run the game under Rosetta](https://sbrothers7.github.io/docs/macOS/ADOFAI%20Modding/Rosetta.md) for now.
+[Run the game under Rosetta](https://sbrothers7.github.io/docs/macOS/ADOFAI%20Modding/Rosetta) for now.
