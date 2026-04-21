@@ -1,4 +1,4 @@
-# ADOFAI Modding
+# ADOFAI Modding (Rosetta 2)
 
 ## Installation
 

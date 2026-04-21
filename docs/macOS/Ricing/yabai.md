@@ -1,10 +1,8 @@
-# Ricing
-
-## Yabai
+# Yabai
 
 *A tiling window manager for macOS* (but more like a window resizer because macs are macs)
 
-### Installing Yabai
+## Installing Yabai
 
 yabai can be installed using [homebrew](https://brew.sh) from a tap.
 
@@ -14,7 +12,7 @@ brew install asmvik/formulae/yabai
 
 If you are [installing from HEAD](https://github.com/asmvik/yabai/wiki/Installing-yabai-(from-HEAD)), you will have to uninstall any release versions before installing. You will also have to create a user-signed certificate for yabai.
 
-### System Integrity Protection
+## System Integrity Protection
 
 To use yabai as a proper WM, SIP needs to be partially disabled.
 
@@ -36,7 +34,7 @@ To use yabai as a proper WM, SIP needs to be partially disabled.
 
 Visit the [yabai wiki](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection) for more info.
 
-### Scripting Additions
+## Scripting Additions
 
 For more useful features, you will need to configure scripting additions.
 

@@ -41,21 +41,24 @@ nav:
     - GRUB: Linux/GRUB.md
 
   - macOS:
-    - Emulation Layers: macOS/Emulation-Layers.md
-    - UTM Guides: macOS/UTM-Guides.md
-    - Virtualization & Emulation: macOS/Virtualization-and-Emulation.md
-    - Ricing: macOS/Ricing.md
+    - Virtualization & Emulation: 
+      - macOS/Virtualization and Emulation/Programs.md
+      - macOS/Virtualization and Emulation/Emulation-Layers.md
+      - macOS/Virtualization and Emulation/UTM-Guides.md
+    - Ricing: 
+      - yabai: macOS/Ricing/yabai.md
 
-    - '"Windows Only"':
-        - ADOFAI Modding: macOS/"Windows Only"/ADOFAI-Modding.md
-        - DJMAX: macOS/"Windows Only"/DJMAX.md
+    - ADOFAI Modding:
+      - Using Rosetta 2: macOS/ADOFAI Modding/Rosetta.md
+      - Running Natively: macOS/ADOFAI Modding/Native.md
 
     - Natively Installing Other OSes:
-        - Installing Linux: macOS/Natively Installing Other OSes/Installing-Linux.md
-        - Installing Windows: macOS/Natively Installing Other OSes/Installing-Windows.md
+      - Installing Linux: macOS/Natively Installing Other OSes/Installing-Linux.md
+      - Installing Windows: macOS/Natively Installing Other OSes/Installing-Windows.md
 
     - Other:
-        - Sikarugir: macOS/Other/Sikarugir.md
+      - Sikarugir: macOS/Other/Sikarugir.md
+      - DJMAX: macOS/Other/DJMAX.md
 
   - Windows: 
     - Versions: Windows/Windows-Versions.md
