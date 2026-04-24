@@ -49,8 +49,8 @@ nav:
       - yabai: macOS/Ricing/yabai.md
 
     - ADOFAI Modding:
-      - Using Rosetta 2: macOS/ADOFAI Modding/Rosetta.md
-      - Running Natively: macOS/ADOFAI Modding/Native.md
+      - x86_64: macOS/ADOFAI Modding/x86_64.md
+      - arm64: macOS/ADOFAI Modding/arm64.md
 
     - Natively Installing Other OSes:
       - Installing Linux: macOS/Natively Installing Other OSes/Installing-Linux.md

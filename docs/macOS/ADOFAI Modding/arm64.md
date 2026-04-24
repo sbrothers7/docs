@@ -1,7 +1,7 @@
 # ADOFAI Modding (arm64)
 
 !!! Note
-    Currently, it is difficult to find a way that would allow native modding to work. Further updates will be made in future.
+    Currently, it is difficult to find a way that would allow native modding to work. Further updates will be made in future. For now, Apple Silicon users will have to use [Rosetta 2 to mod ADOFAI](https://sbrothers7.github.io/docs/macOS/ADOFAI%20Modding/x86_64).
 
 This is a full investigation into running `BepInEx 5.x` natively on macOS Apple Silicon (arm64), specifically for modding ADOFAI. Native doorstop injection and BepInEx preloader loading were successful, but a fundamental incompatibility in `MonoMod/Harmony` prevents BepInEx from fully initializing on arm64 `Mono`.
 
@@ -127,7 +127,7 @@ The `MonoMod.RuntimeDetour.dll` (~v22.x) bundled with BepInEx 5.x does not suppo
 ## What Works
 
 | Component | arm64 Native | Status |
-|-----------|-------------|--------|
+|-----------|--------------|--------|
 | UnityDoorstop (libdoorstop.dylib) | Y | Compile from source with `-target arm64e-apple-macos` |
 | Doorstop → Mono hooking | Y | Successfully hooks UnityPlayer and intercepts mono_jit_init |
 | BepInEx Preloader loading | Y | Assembly loads and entrypoint is invoked |
@@ -147,4 +147,4 @@ Any of the following would unblock native arm64 BepInEx on macOS:
 
 ## Workaround
 
-[Run the game under Rosetta](https://sbrothers7.github.io/docs/macOS/ADOFAI%20Modding/Rosetta) for now.
+[Run the game under Rosetta](https://sbrothers7.github.io/docs/macOS/ADOFAI%20Modding/x86_64) for now.
