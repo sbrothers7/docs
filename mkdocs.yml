@@ -1,6 +1,6 @@
 site_name: sbrothers7 Docs
-theme: 
-  name: modern 
+theme:
+  name: zensical
   logo: images/logo.png
   icon:
     edit: material/pencil
