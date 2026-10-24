@@ -37,11 +37,7 @@ extra_css:
 nav:
   - Home: index.md
   - Linux:
-    - Arch Linux:
-      - Overview: Linux/Arch Linux/Overview.md
-      - Partitioning: Linux/Arch Linux/Partitioning.md
-      - Hyprland: Linux/Arch Linux/Hyprland.md
-      - Korean Input: Linux/Arch Linux/Korean-Input.md
+    - Arch Linux: Linux/Arch-Linux.md
     - GRUB: Linux/GRUB.md
     - ADOFAI: Linux/ADOFAI.md
 
